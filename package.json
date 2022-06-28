@@ -1,6 +1,6 @@
 {
   "name": "ts-json-schema-generator-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "auto generate JSON schema, Power by https://github.com/vega/ts-json-schema-generator",
   "main": "dist/index.js",
   "types": "./dist/index.d.ts",

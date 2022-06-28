@@ -33,6 +33,7 @@ export default class JSONSchemaGenerateWebpackPlugin implements WebpackPluginIns
           callback();
           return;
         }
+        process.stdout.write('Start generate json schema...\n');
         const generator = createGenerator({ ...this.options });
         const schema = generator.createSchema(this.options.type);
         const json = this.options.minify ? JSON.stringify(schema) : JSON.stringify(schema, null, 2);
